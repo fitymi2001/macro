@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'naver_login2ixlqzm.ui'
+## Form generated from reading UI file 'naver_login2yFEfOu.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(321, 599)
+        MainWindow.resize(321, 440)
         icon = QIcon()
         icon.addFile(u"icon.jpg", QSize(), QIcon.Normal, QIcon.Off)
         MainWindow.setWindowIcon(icon)
@@ -139,7 +139,7 @@ class Ui_MainWindow(object):
         self.COM_Group = QGroupBox(self.centralwidget)
         self.COM_Group.setObjectName(u"COM_Group")
         self.COM_Group.setEnabled(True)
-        self.COM_Group.setGeometry(QRect(20, 230, 191, 131))
+        self.COM_Group.setGeometry(QRect(20, 230, 281, 131))
         self.COM_Group.setBaseSize(QSize(0, 0))
         self.COM_Group.setFont(font)
         self.COM_Group.setStyleSheet(u"")
@@ -158,7 +158,7 @@ class Ui_MainWindow(object):
         self.COM_Interval.setMaximum(300)
         self.COM_Start_Button = QPushButton(self.COM_Group)
         self.COM_Start_Button.setObjectName(u"COM_Start_Button")
-        self.COM_Start_Button.setGeometry(QRect(10, 90, 141, 31))
+        self.COM_Start_Button.setGeometry(QRect(110, 90, 151, 31))
         self.COM_Start_Button.setFont(font3)
         self.COM_Start_Button.setStyleSheet(u"QPushButton{\n"
 "	background-color: rgb(0, 0, 0);\n"
@@ -187,6 +187,27 @@ class Ui_MainWindow(object):
         self.COM_Count.setFont(font2)
         self.COM_Count.setMinimum(1)
         self.COM_Count.setMaximum(150)
+        self.COM_Ment_Button = QPushButton(self.COM_Group)
+        self.COM_Ment_Button.setObjectName(u"COM_Ment_Button")
+        self.COM_Ment_Button.setGeometry(QRect(10, 90, 91, 31))
+        palette1 = QPalette()
+        palette1.setBrush(QPalette.Active, QPalette.Button, brush)
+        palette1.setBrush(QPalette.Inactive, QPalette.Button, brush)
+        palette1.setBrush(QPalette.Disabled, QPalette.Button, brush)
+        self.COM_Ment_Button.setPalette(palette1)
+        self.COM_Ment_Button.setFont(font2)
+        self.COM_Ment_Button.setStyleSheet(u"QPushButton {\n"
+"	border-radius : 10px;\n"
+"	border-color: rgb(0, 0, 0);\n"
+"	border-style : inset;\n"
+"	border-width : 1.2px;\n"
+"}\n"
+"QPushButton:hover{\n"
+"	background-color: rgb(245, 245, 245);\n"
+"}\n"
+"QPushButton:pressed{\n"
+"	background-color: rgb(230, 230, 230);\n"
+"}")
         MainWindow.setCentralWidget(self.centralwidget)
         self.BACKGROUND.raise_()
         self.LOGIN_Button.raise_()
@@ -230,5 +251,6 @@ class Ui_MainWindow(object):
         self.COM_Start_Button.setText(QCoreApplication.translate("MainWindow", u"START", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"\ubc88", None))
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"\ub9e4\ud06c\ub85c \ud69f\uc218", None))
+        self.COM_Ment_Button.setText(QCoreApplication.translate("MainWindow", u"\uba58\ud2b8 \ud30c\uc77c", None))
     # retranslateUi
 

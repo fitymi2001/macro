@@ -28,7 +28,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from PySide6.QtWidgets import QApplication, QWidget, QMainWindow
 from PySide6.QtWidgets import QFileDialog
 
-from ui_naver_login import Ui_MainWindow
+from naver_ui import Ui_MainWindow
 
 from bs4 import BeautifulSoup
 
